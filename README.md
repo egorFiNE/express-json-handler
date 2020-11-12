@@ -27,6 +27,12 @@ app.post('/auth/', JSONHandler(async (req, res) {
 * errors properly delivered in JSON responses
 * browser cache disabled
 
+## Installation
+
+```bash
+npm install express-json-handler
+```
+
 # Async functions handled and errors catched
 
 express-json-handler properly supports async functions in Express 4. This won't work as expected in Express 4:

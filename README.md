@@ -74,6 +74,12 @@ JSONHandler.DEFAULT_HEADERS = {
 };
 ```
 
+# Development and maintenance
+
+Tests: `npm run test` or `mocha test.js`.
+
+Liner: `npm run lint` or `eslint index.js`.
+
 # Footer
 
 Author: Egor Egorov me@egorfine.com.<br>
